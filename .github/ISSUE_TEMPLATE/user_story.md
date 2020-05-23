@@ -7,6 +7,6 @@ assignees: ''
 
 ---
 
-As a <persona>, I want <feature> because <reason>.
+As a <persona>, I want <feature> so that <reason>.
 
 Related user stories: \#1, \#2, \#3
