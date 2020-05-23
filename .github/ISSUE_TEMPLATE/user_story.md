@@ -8,3 +8,5 @@ assignees: ''
 ---
 
 As a <persona>, I want <feature> because <reason>.
+
+Related user stories: \#1, \#2, \#3
