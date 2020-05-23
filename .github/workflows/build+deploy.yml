@@ -7,7 +7,7 @@ on:
     branches: [ release ]
 
 jobs:
-  build:
+  build+deploy:
     runs-on: ubuntu-latest
     
     steps:
@@ -28,11 +28,6 @@ jobs:
       - name: Build site
         run: yarn build
   
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    
-    steps:
       - name: Deploy site
         run: yarn deploy:ci
         env:
