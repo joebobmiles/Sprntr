@@ -29,6 +29,6 @@ jobs:
         run: yarn build
   
       - name: Deploy site
-        run: yarn deploy:ci
+        run: yarn deploy:ci --user "${GITHUB_WORKFLOW}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
