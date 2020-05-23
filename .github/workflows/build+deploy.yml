@@ -24,6 +24,7 @@ jobs:
         uses: cypress-io/github-action@v1
         with:
           command: yarn test:e2e
+          headless: true
 
       - name: Build site
         run: yarn build
