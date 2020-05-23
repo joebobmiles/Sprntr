@@ -23,8 +23,7 @@ jobs:
       - name: Run e2e tests
         uses: cypress-io/github-action@v1
         with:
-          command: yarn test:e2e
-          headless: true
+          command: yarn test:e2e --headless
 
       - name: Build site
         run: yarn build
