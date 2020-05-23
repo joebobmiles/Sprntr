@@ -17,8 +17,13 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Run Tests
-        run: yarn test
+      - name: Run unit tests
+        run: yarn test:unit
+
+      - name: Run e2e tests
+        uses: cypress-io/github-action@v1
+        with:
+          command: yarn test:e2e
 
       - name: Build site
         run: yarn build
