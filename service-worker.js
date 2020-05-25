@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.8bfcab7a4af73c40e0ee70119e756cf5.js"
+  "/precache-manifest.f9d0975333e21a16d7cc8045073cdd3e.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "sprntr"});
