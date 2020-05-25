@@ -8,9 +8,7 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
-    "test": "yarn test:unit && yarn test:e2e --headless",
-    "deploy": "gh-pages -d dist -b master",
-    "deploy:ci": "gh-pages -d dist -b master -r https://$GITHUB_TOKEN@github.com/joebobmiles/Sprntr.git"
+    "test": "yarn test:unit && yarn test:e2e --headless"
   },
   "dependencies": {
     "core-js": "^3.6.4",
